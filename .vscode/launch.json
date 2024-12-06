@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CalculatorApp",
+            "request": "launch",
+            "mainClass": "com.thales.junit_exercise.CalculatorApp",
+            "projectName": "calculator"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CalculatorApp<calculator>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.openclassrooms.testing.calcul.CalculatorApp",
+            "projectName": "calculator",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
